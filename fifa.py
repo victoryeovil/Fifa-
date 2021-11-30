@@ -59,7 +59,7 @@ def main():
     #predict button
     if st.button("Predict"):
         result = prediction(movement_reactions,dribbling,passing,attacking_short_passing,potential ,power_shot_power,mentality_composure,mentality_vision)
-    st.success('The output is {}'.format(result))
+    st.success('The Score is {}'.format(result))
 
     #source code button
     url = 'https://github.com/victoryeovil/Fifa-'
