@@ -68,7 +68,7 @@ def main():
         webbrowser.open_new_tab(url)
 
 
-url = url = 'https://colab.research.google.com/drive/1sjLiOT-MnVYYxpPjrABIufNOAWqmivBd?usp=sharing'
+url = url = 'https://github.com/victoryeovil/Fifa-'
 
 if st.button('Source Code'):
     webbrowser.open_new_tab(url)
