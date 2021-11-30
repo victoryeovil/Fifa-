@@ -62,13 +62,13 @@ def main():
     st.success('The output is {}'.format(result))
 
     #source code button
-    url = 'https://colab.research.google.com/drive/1sjLiOT-MnVYYxpPjrABIufNOAWqmivBd?usp=sharing'
+    url = 'https://github.com/victoryeovil/Fifa-'
 
     if st.button('Video'):
         webbrowser.open_new_tab(url)
 
 
-url = url = 'https://github.com/victoryeovil/Fifa-'
+url = url = 'https://colab.research.google.com/drive/1sjLiOT-MnVYYxpPjrABIufNOAWqmivBd?usp=sharing'
 
 if st.button('Source Code'):
     webbrowser.open_new_tab(url)
