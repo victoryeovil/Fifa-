@@ -9,7 +9,7 @@ import webbrowser
 im = Image.open('./fifa20.png')
 st.image(im,width = 700,caption = "Fifa 2021")
 # loading in the model to predict on the data
-pickle_in = open('model.pkl', 'rb')
+pickle_in = open('modell.pkl', 'rb')
 classifier = pickle.load(pickle_in)
 
 def welcome():
